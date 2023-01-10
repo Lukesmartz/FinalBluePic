@@ -25,10 +25,10 @@ function setup() {
   
  play = false;
   
-  var button =  createButton(' Play me ')
+  var button =  createButton(' Play')
   button.center(CENTER);
   button.addClass('btn'); 
-  button.position(width/2, height/2);
+  button.position(-325, 0, 'relative'); 
   button.size(75,75) 
   
   button.mousePressed(function(){
@@ -348,7 +348,7 @@ rect(245, y3, 10, 75,); //falling right brick 4
    fill('#05144B');
    rect(370, y2, 15, 100,); //fallingright brick 
     
-  fill( '#193498');
+    fill( '#193498');
    ellipse(545, 430, 450, vol+ 150,); //hill 3
     
      fill( '#2344BF');
@@ -417,12 +417,12 @@ rect(245, y3, 10, 75,); //falling right brick 4
     ellipse(460, 500, 537, 164,); //hill 2
 
 
-  fill( '#2344BF');
-  rect(250, y4, 15, 100,); //falling right brick 6
+    fill( '#2344BF');
+    rect(250, y4, 15, 100,); //falling right brick 6
 
-  fill('#193498');
-  rect(245, y4, 15, 100,); //falling right brick 6
-  '#2344BF'
+    fill('#193498');
+    rect(245, y4, 15, 100,); //falling right brick 6
+ 
     
    fill('#6D88ED');
     rect(20, 470, 158, 370,); //left brick 4
@@ -468,7 +468,7 @@ rect(245, y3, 10, 75,); //falling right brick 4
     fill( col, 26, 67);
     ellipse(360, yPos2, 287 , 287,); //2nd big floaty
 
-  fill( '#071857');
+    fill( '#071857');
     ellipse(300, 560, 537, vol + 150,); //hill
 
     fill( '#071650');
